@@ -1,47 +1,135 @@
- 1 diseño
-	. core i7 12gen
-	. ram 16gb
-	. ssd 1tb m.2
-	. hdd 2tb
-	. case basico
-	. rtx 4060 6gb
-	. fuente 850w
-	
- 2 administractivos
-	. core i5 12gen
-	. ram 16gb
-	. ssd 512gb m.2
-	. case basico
-	. fuente 550w
-	
- 3 sedes admision
-	. core i5 12gen
-	. ram 16gb
-	. ssd 256gb m.2
-	. case basico
-	
 
-
-Hola. Puedes hacerme una cotizacion de 3 CPU con estas caracteristicas
 	
-cpu diseño
-- core i7 12gen
-- ram 16gb
-- ssd 1tb m.2
-- hdd 2tb
-- rtx 4060 6gb
-- fuente 850w
-- case basico
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BermanLab</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #e8e8e8;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
+      width: 100%;
+      max-width: 480px;
+      background: #f0f0f0;
+      padding: 20px;
+    }
+    .logo {
+      text-align: center;
+      margin: 20px 0 30px;
+    }
+    .logo img {
+      max-width: 220px;
+    }
+    .link-btn {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+      text-decoration: none;
+      color: #333;
+      font-size: 15px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      transition: transform 0.15s;
+    }
+    .link-btn:hover { transform: scale(1.02); }
+    .link-btn .icon {
+      width: 40px;
+      height: 40px;
+      background: #ccc;
+      border-radius: 6px;
+      margin-right: 14px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+    .link-btn .icon.whatsapp { background: #e8f5e9; }
+    .link-btn .text { flex: 1; }
+    .link-btn .dots { color: #999; font-size: 18px; }
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 30px 0 20px;
+    }
+    .socials a {
+      width: 44px;
+      height: 44px;
+      background: #333;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #888;
+      padding-bottom: 20px;
+    }
+    .footer a { color: #888; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <!-- Reemplaza con tu logo -->
+      <h2 style="color:#c0392b;">Berman<span style="color:#333;">Lab</span> 🔴</h2>
+    </div>
 
-cpu admi 1
-- core i5 12gen
-- ram 16gb
-- ssd 512gb m.2
-- case basico
+    <a class="link-btn" href="http://app.bermanlab.com:3002/Clientes/Resultados/Inf_Proforma" target="_blank">
+      <div class="icon">📋</div>
+      <span class="text">Resultados de Exámenes</span>
+      <span class="dots">⋮</span>
+    </a>
 
-cpu admi 2
-- core i5 12gen
-- ram 16gb
-- ssd 256gb m.2
-- case basico
-	
+    <a class="link-btn" href="https://www.bermanlab.com/" target="_blank">
+      <div class="icon">🌐</div>
+      <span class="text">Página Oficial de BermanLab</span>
+      <span class="dots">⋮</span>
+    </a>
+
+    <a class="link-btn" href="https://www.bermanlab.com/sedes" target="_blank">
+      <div class="icon">📍</div>
+      <span class="text">Horarios y Sedes en Google Maps</span>
+      <span class="dots">⋮</span>
+    </a>
+
+    <a class="link-btn" href="https://wa.me/51950206241" target="_blank">
+      <div class="icon whatsapp">💬</div>
+      <span class="text">Whatsapp Call Center</span>
+      <span class="dots"></span>
+    </a>
+
+    <a class="link-btn" href="https://tusitio.com/encuesta" target="_blank">
+      <div class="icon">📝</div>
+      <span class="text">Encuesta de Satisfacción</span>
+      <span class="dots">⋮</span>
+    </a>
+
+    <div class="socials">
+      <a href="https://instagram.com/bermanlab" target="_blank">📷</a>
+      <a href="https://wa.me/51950206241" target="_blank">💬</a>
+      <a href="https://facebook.com/bermanlab" target="_blank">📘</a>
+    </div>
+
+    <div class="footer">
+      <p>© 2026 BermanLab. Todos los derechos reservados.</p>
+    </div>
+  </div>
+</body>
+</html>
